@@ -1,0 +1,163 @@
+body
+{
+	background-image: url("Assets/Graphics/background.png");
+}
+#header
+{
+	background-color: #010033;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+	padding: 5px;
+}
+#header-row
+{
+
+}
+#proficon-div
+{
+	
+}
+#proficon
+{
+	max-width: 100%;
+	height: auto;
+}
+#nameslogan-div
+{
+	font-family: 'Tomorrow', sans-serif;
+}
+@media (min-width: 1px)
+{
+    #name
+	{
+		font-size: 7.5vmin;
+		color: #8800FF;
+		margin-top: -2vmin;
+		padding-left: 1.5vmin;
+	}
+	#profession
+	{
+		font-size: 2.4vmin;
+		font-style: italic;
+		color: #8800FF;
+		margin-top: -1.5vmin;
+		padding-left: 1.8vmin;
+	}
+	#slogan
+	{
+		font-size: 2.6vmin;
+		font-style: italic;
+		color: #AA00FF;
+		padding-right: 1.4vmin;
+		padding-top: 0.7vmin;
+	}
+}
+
+@media (min-width: 576px)
+{
+    #name
+	{
+		font-size: 38px;
+		color: #8800FF;
+		margin-top: -9px;
+		padding-left: 8px;
+	}
+	#profession
+	{
+		font-size: 13.5px;
+		font-style: italic;
+		color: #8800FF;
+		margin-top: -10px;
+		padding-left: 9.5px;
+	}
+	#slogan
+	{
+		font-size: 14px;
+		font-style: italic;
+		color: #AA00FF;
+		padding-right: 4px;
+		padding-top: 8px;
+	}
+}
+
+@media (min-width: 768px)
+{
+    #name
+	{
+		font-size: 50.5px;
+		color: #8800FF;
+		margin-top: -12px;
+		padding-left: 10.6px;
+	}
+	#profession
+	{
+		font-size: 18px;
+		font-style: italic;
+		color: #8800FF;
+		margin-top: -13.5px;
+		padding-left: 12.5px;
+	}
+	#slogan
+	{
+		font-size: 18.5px;
+		font-style: italic;
+		color: #AA00FF;
+		padding-right: 5.5px;
+		padding-top: 12px;
+	}
+}
+
+@media (min-width: 992px)
+{
+    #name
+	{
+		font-size: 65.5px;
+		color: #8800FF;
+		margin-top: -15.5px;
+		padding-left: 13.8px;
+	}
+	#profession
+	{
+		font-size: 23.5px;
+		font-style: italic;
+		color: #8800FF;
+		margin-top: -17.5px;
+		padding-left: 16.3px;
+	}
+	#slogan
+	{
+		font-size: 25px;
+		font-style: italic;
+		color: #AA00FF;
+		padding-right: 9px;
+		padding-top: 19px;
+	}
+}
+
+@media (min-width: 1200px)
+{
+    #name
+	{
+		font-size: 78.5px;
+		color: #8800FF;
+		margin-top: -18.6px;
+		padding-left: 15px;
+	}
+	#profession
+	{
+		font-size: 28px;
+		font-style: italic;
+		color: #8800FF;
+		margin-top: -21px;
+		padding-left: 19px;
+	}
+	#slogan
+	{
+		font-size: 30px;
+		font-style: italic;
+		color: #AA00FF;
+		padding-right: 10.8px;
+		padding-top: 22.8px;
+	}
+}
