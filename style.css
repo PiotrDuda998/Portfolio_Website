@@ -1,3 +1,7 @@
+html, body
+{
+	scroll-behavior: smooth;
+}
 body
 {
 	background-image: url("Assets/Graphics/background.png");
@@ -76,7 +80,7 @@ body
 #aboutbg-div
 {
 	background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("Assets/Graphics/aboutbg.png");
-	background-size: 100% 100%;
+	background-size: 100% 100.5%;
 	padding: 5px;
 }
 #abouttitle-div
@@ -90,6 +94,22 @@ body
 	background: -webkit-linear-gradient(#BB0066, #CCCCCC);
   	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
+}
+#projects-div
+{
+	border-style: solid;
+	border-width: 0px 5px 5px 5px;
+	border-color: black;
+	padding: 0px;
+}
+#projectstitle-div
+{
+	background-color: #010033;
+	text-align: center;
+	color: #4400AA;
+	border-style: solid;
+	border-width: 0px 0px 3px 0px;
+	border-color: black;
 }
 @media (min-width: 1px)
 {
@@ -133,6 +153,10 @@ body
 		font-size: 2.4vmin;
 		padding-top: 1.05vmin;
 	}
+	#projectstitle-div
+	{
+		font-size: 5vmin;
+	}
 }
 
 @media (min-width: 576px)
@@ -172,6 +196,10 @@ body
 		font-size: 12px;
 		padding-top: 13px;
 	}
+	#projectstitle-div
+	{
+		font-size: 29px;
+	}
 }
 
 @media (min-width: 768px)
@@ -206,6 +234,20 @@ body
 	{
 		font-size: 16px;
 		padding-top: 15px;
+	}
+	#projectstitle-div
+	{
+		font-size: 38px;
+	}
+	.carousel-caption h5
+	{
+		margin: 0px;
+		font-size: 13px;
+	}
+	.carousel-caption p
+	{
+		margin: 0px;
+		font-size: 10px;
 	}
 }
 
@@ -246,6 +288,18 @@ body
 		font-size: 22px;
 		padding-top: 15px;
 	}
+	#projectstitle-div
+	{
+		font-size: 50px;
+	}
+	.carousel-caption h5
+	{
+		font-size: 17px;
+	}
+	.carousel-caption p
+	{
+		font-size: 13px;
+	}
 }
 
 @media (min-width: 1200px)
@@ -280,5 +334,22 @@ body
 	{
 		font-size: 27px;
 		padding-top: 0px;
+	}
+	.carousel-inner
+	{
+		width: 100%;
+		max-height: 800px;
+	}
+	#projectstitle-div
+	{
+		font-size: 60px;
+	}
+	.carousel-caption h5
+	{
+		font-size: 22px;
+	}
+	.carousel-caption p
+	{
+		font-size: 16px;
 	}
 }
