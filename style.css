@@ -59,6 +59,38 @@ body
 	font-style: bold;
 	padding: 0px;
 }
+#navbar-item:hover
+{
+	text-align: center;
+	font-style: bold;
+	color: #BB0066;
+	padding: 0px;
+}
+#about-div
+{
+	border-style: solid;
+	border-width: 0px 5px 5px 5px;
+	border-color: black;
+	padding: 0px;
+}
+#aboutbg-div
+{
+	background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("Assets/Graphics/aboutbg.png");
+	background-size: 100% 100%;
+	padding: 5px;
+}
+#abouttitle-div
+{
+	text-align: center;
+	color: #4400AA;
+}
+#aboutdesc-div
+{
+	text-align: justify;
+	background: -webkit-linear-gradient(#BB0066, #CCCCCC);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
 @media (min-width: 1px)
 {
 	#header-div
@@ -92,6 +124,15 @@ body
 		padding-top: 0.8vmin;
 		padding-bottom: 0.8vmin;
 	}
+	#abouttitle-div
+	{
+		font-size: 5vmin;
+	}
+	#aboutdesc-div
+	{
+		font-size: 2.4vmin;
+		padding-top: 1.05vmin;
+	}
 }
 
 @media (min-width: 576px)
@@ -122,6 +163,15 @@ body
 	{
 		padding: 4px;
 	}
+	#abouttitle-div
+	{
+		font-size: 29px;
+	}
+	#aboutdesc-div
+	{
+		font-size: 12px;
+		padding-top: 13px;
+	}
 }
 
 @media (min-width: 768px)
@@ -147,6 +197,15 @@ body
 	#navbar-div
 	{
 		font-size: 20px;
+	}
+	#abouttitle-div
+	{
+		font-size: 38px;
+	}
+	#aboutdesc-div
+	{
+		font-size: 16px;
+		padding-top: 15px;
 	}
 }
 
@@ -174,6 +233,19 @@ body
 	{
 		font-size: 23px;
 	}
+	#abouttitle-div
+	{
+		font-size: 50px;
+	}
+	#abouttitle-div
+	{
+		font-size: 50px;
+	}
+	#aboutdesc-div
+	{
+		font-size: 22px;
+		padding-top: 15px;
+	}
 }
 
 @media (min-width: 1200px)
@@ -199,5 +271,14 @@ body
 	#navbar-div
 	{
 		font-size: 26px;
+	}
+	#abouttitle-div
+	{
+		font-size: 60px;
+	}
+	#aboutdesc-div
+	{
+		font-size: 27px;
+		padding-top: 0px;
 	}
 }
