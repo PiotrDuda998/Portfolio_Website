@@ -5,6 +5,7 @@ html, body
 body
 {
 	background-image: url("Assets/Graphics/background.png");
+	background-size: 100% 120%;
 	font-family: 'Tomorrow', sans-serif;
 }
 #header-div
@@ -111,6 +112,60 @@ body
 	border-width: 0px 0px 3px 0px;
 	border-color: black;
 }
+#plans-div
+{
+	border-style: solid;
+	border-width: 0px 5px 5px 5px;
+	border-color: black;
+	padding: 0px;
+}
+#plansbg-div
+{
+	background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("Assets/Graphics/aboutbg.png");
+	background-size: 100% 100.5%;
+	padding: 5px;
+}
+#planstitle-div
+{
+	text-align: center;
+	color: #4400AA;
+}
+#plansdesc-div
+{
+	text-align: justify;
+	background: -webkit-linear-gradient(#BB0066, #CCCCCC);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+#contact-div
+{
+	border-style: solid;
+	border-width: 0px 5px 5px 5px;
+	border-color: black;
+	padding: 0px;
+}
+#contactbg-div
+{
+	background-color: #000015;
+	padding: 5px;
+}
+#contacttitle-div
+{
+	text-align: center;
+	color: #4400AA;
+}
+#contact-table
+{
+	background-color: black;
+	text-align: center;
+	table-layout: fixed;
+}
+#footer-div
+{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
 @media (min-width: 1px)
 {
 	#header-div
@@ -177,6 +232,27 @@ body
 		font-size: 2.8vmin;
 		text-shadow: 0.2vmin 0.2vmin #000000;
 	}
+	#planstitle-div
+	{
+		font-size: 5vmin;
+	}
+	#plansdesc-div
+	{
+		font-size: 3.2vmin;
+		padding-top: 1.45vmin;
+	}
+	#contacttitle-div
+	{
+		font-size: 5vmin;
+	}
+	#contactdesc-div
+	{
+		font-size: 2.6vmin;
+	}
+	#footertext-div
+	{
+		font-size: 2vmin;
+	}
 }
 
 @media (min-width: 576px)
@@ -236,6 +312,27 @@ body
 		font-size: 10px;
 		text-shadow: none;
 	}
+	#planstitle-div
+	{
+		font-size: 29px;
+	}
+	#plansdesc-div
+	{
+		font-size: 16px;
+		padding-top: 20px;
+	}
+	#contacttitle-div
+	{
+		font-size: 29px;
+	}
+	#contactdesc-div
+	{
+		font-size: 12px;
+	}
+	#footertext-div
+	{
+		font-size: 9px;
+	}
 }
 
 @media (min-width: 768px)
@@ -291,6 +388,27 @@ body
 		font-size: 13px;
 		text-shadow: none;
 	}
+	#planstitle-div
+	{
+		font-size: 38px;
+	}
+	#plansdesc-div
+	{
+		font-size: 21px;
+		padding-top: 18px;
+	}
+	#contacttitle-div
+	{
+		font-size: 38px;
+	}
+	#contactdesc-div
+	{
+		font-size: 15px;
+	}
+	#footertext-div
+	{
+		font-size: 10px;
+	}
 }
 
 @media (min-width: 992px)
@@ -321,10 +439,6 @@ body
 	{
 		font-size: 50px;
 	}
-	#abouttitle-div
-	{
-		font-size: 50px;
-	}
 	#aboutdesc-div
 	{
 		font-size: 22px;
@@ -347,6 +461,27 @@ body
 	{
 		font-size: 16px;
 		text-shadow: none;
+	}
+	#planstitle-div
+	{
+		font-size: 50px;
+	}
+	#plansdesc-div
+	{
+		font-size: 29px;
+		padding-top: 35px;
+	}
+	#contacttitle-div
+	{
+		font-size: 50px;
+	}
+	#contactdesc-div
+	{
+		font-size: 18px;
+	}
+	#footertext-div
+	{
+		font-size: 12px;
 	}
 }
 
@@ -400,5 +535,26 @@ body
 	{
 		font-size: 18px;
 		text-shadow: none;
+	}
+	#planstitle-div
+	{
+		font-size: 60px;
+	}
+	#plansdesc-div
+	{
+		font-size: 36px;
+		padding-top: 30px;
+	}
+	#contacttitle-div
+	{
+		font-size: 60px;
+	}
+	#contactdesc-div
+	{
+		font-size: 21px;
+	}
+	#footertext-div
+	{
+		font-size: 14px;
 	}
 }
