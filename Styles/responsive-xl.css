@@ -1,0 +1,73 @@
+@media (min-width: 1200px)
+{
+    #name-div
+	{
+		font-size: 78.5px;
+		margin-top: -18.6px;
+		padding-left: 15px;
+	}
+	#profession-div
+	{
+		font-size: 28px;
+		margin-top: -21px;
+		padding-left: 19px;
+	}
+	#slogan-div
+	{
+		font-size: 30px;
+		padding-right: 10.8px;
+		padding-top: 22.8px;
+	}
+	#navbar-div
+	{
+		font-size: 26px;
+	}
+	#abouttitle-div
+	{
+		font-size: 60px;
+	}
+	#aboutdesc-div
+	{
+		font-size: 27px;
+		padding-top: 0px;
+	}
+	.carousel-inner
+	{
+		width: 100%;
+	}
+	#projectstitle-div
+	{
+		font-size: 60px;
+	}
+	.carousel-caption h5
+	{
+		font-size: 23px;
+		text-shadow: none;
+	}
+	.carousel-caption p
+	{
+		font-size: 18px;
+		text-shadow: none;
+	}
+	#planstitle-div
+	{
+		font-size: 60px;
+	}
+	#plansdesc-div
+	{
+		font-size: 36px;
+		padding-top: 30px;
+	}
+	#contacttitle-div
+	{
+		font-size: 60px;
+	}
+	#contactdesc-div
+	{
+		font-size: 21px;
+	}
+	#footertext-div
+	{
+		font-size: 14px;
+	}
+}

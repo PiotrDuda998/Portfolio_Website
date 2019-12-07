@@ -1,0 +1,191 @@
+/* Uncategorized styles */
+
+html, body
+{
+	scroll-behavior: smooth;
+}
+body
+{
+	background-image: url("../Assets/Graphics/background.png");
+	background-size: 100% 120%;
+	font-family: 'Tomorrow', sans-serif;
+}
+
+/* Header section */
+
+#header-div
+{
+	background-color: #010033;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+	padding: 5px;
+}
+#proficon-img
+{
+	max-width: 100%;
+	height: auto;
+}
+#name-div
+{
+	color: #8800FF;
+}
+#profession-div
+{
+	font-style: italic;
+	color: #8800FF;
+}
+#slogan-div
+{
+	font-style: italic;
+	color: #AA00FF;
+}
+
+/* Navbar section */
+
+#navbar-div
+{
+	background-color: #010033;
+	border-style: solid;
+	border-width: 0px 5px 5px 5px;
+	border-color: black;
+	padding: 0px;
+}
+#navbar-nav
+{
+	padding: 0px;
+}
+#navbar-item-div
+{
+	display: inline-block; 
+	text-align: center;
+}
+#navbar-item-div:not(:last-child)
+{
+	border-style: solid;
+	border-width: 0px 3px 0px 0px;
+	border-color: black;
+}
+#navbar-item
+{
+	text-align: center;
+	font-style: bold;
+	padding: 0px;
+}
+#navbar-item:hover
+{
+	text-align: center;
+	font-style: bold;
+	color: #BB0066;
+	padding: 0px;
+}
+
+/* 'About me' section */
+
+#about-div
+{
+	border-style: solid;
+	border-width: 0px 5px 5px 5px;
+	border-color: black;
+	padding: 0px;
+}
+#aboutbg-div
+{
+	background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../Assets/Graphics/aboutbg.png");
+	background-size: 100% 100.5%;
+	padding: 5px;
+}
+#abouttitle-div
+{
+	text-align: center;
+	color: #4400AA;
+}
+#aboutdesc-div
+{
+	text-align: justify;
+	background: -webkit-linear-gradient(#BB0066, #CCCCCC);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+/* Projects section */
+
+#projects-div
+{
+	border-style: solid;
+	border-width: 0px 5px 5px 5px;
+	border-color: black;
+	padding: 0px;
+}
+#projectstitle-div
+{
+	background-color: #010033;
+	text-align: center;
+	color: #4400AA;
+	border-style: solid;
+	border-width: 0px 0px 3px 0px;
+	border-color: black;
+}
+
+/* 'Future plans' section */
+
+#plans-div
+{
+	border-style: solid;
+	border-width: 0px 5px 5px 5px;
+	border-color: black;
+	padding: 0px;
+}
+#plansbg-div
+{
+	background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../Assets/Graphics/aboutbg.png");
+	background-size: 100% 100.5%;
+	padding: 5px;
+}
+#planstitle-div
+{
+	text-align: center;
+	color: #4400AA;
+}
+#plansdesc-div
+{
+	text-align: justify;
+	background: -webkit-linear-gradient(#BB0066, #CCCCCC);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+/* Contact section */
+
+#contact-div
+{
+	border-style: solid;
+	border-width: 0px 5px 5px 5px;
+	border-color: black;
+	padding: 0px;
+}
+#contactbg-div
+{
+	background-color: #000008;
+	padding: 5px;
+}
+#contacttitle-div
+{
+	text-align: center;
+	color: #4400AA;
+}
+#contact-table
+{
+	background-color: black;
+	text-align: center;
+	table-layout: fixed;
+}
+
+/* Footer */
+
+#footer-div
+{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
