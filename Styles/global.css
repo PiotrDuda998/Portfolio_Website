@@ -38,7 +38,7 @@ body
 #slogan-div
 {
 	font-style: italic;
-	color: #AA00FF;
+	color: #8800FF;
 }
 
 /* Navbar section */
@@ -92,13 +92,13 @@ body
 #aboutbg-div
 {
 	background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../Assets/Graphics/aboutbg.png");
-	background-size: 100% 110%;
+	background-size: 100% 120%;
 	padding: 5px;
 }
 #abouttitle-div
 {
 	text-align: center;
-	color: #4400AA;
+	color: #8800FF;
 }
 #aboutdesc-div
 {
@@ -121,7 +121,7 @@ body
 {
 	background-color: #010033;
 	text-align: center;
-	color: #4400AA;
+	color: #8800FF;
 	border-style: solid;
 	border-width: 0px 0px 3px 0px;
 	border-color: black;
@@ -139,13 +139,13 @@ body
 #plansbg-div
 {
 	background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../Assets/Graphics/aboutbg.png");
-	background-size: 100% 110%
+	background-size: 100% 107%
 	padding: 5px;
 }
 #planstitle-div
 {
 	text-align: center;
-	color: #4400AA;
+	color: #8800FF;
 }
 #plansdesc-div
 {
@@ -172,7 +172,7 @@ body
 #contacttitle-div
 {
 	text-align: center;
-	color: #4400AA;
+	color: #8800FF;
 }
 #contact-table
 {
