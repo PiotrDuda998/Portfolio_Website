@@ -92,7 +92,7 @@ body
 #aboutbg-div
 {
 	background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../Assets/Graphics/aboutbg.png");
-	background-size: 100% 105%;
+	background-size: 100% 102%;
 	padding: 5px;
 }
 #abouttitle-div
@@ -139,7 +139,7 @@ body
 #plansbg-div
 {
 	background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../Assets/Graphics/aboutbg.png");
-	background-size: 100% 105%;
+	background-size: 100% 115%;
 	padding: 5px;
 }
 #planstitle-div
